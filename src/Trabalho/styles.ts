@@ -32,7 +32,7 @@ export const TextoTrabalho = styled.div`
 
     h2 {
       font-size: 28px;
-      margin-top: 40px;
+      margin-top: 1px;
       margin-bottom: 80px;
     }
   }
@@ -42,7 +42,7 @@ export const TextoTrabalho = styled.div`
 
     h2 {
       font-size: 24px;
-      margin-top: 30px;
+      margin-top: 1px;
       margin-bottom: 60px;
     }
   }

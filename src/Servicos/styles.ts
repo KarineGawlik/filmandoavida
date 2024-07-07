@@ -19,7 +19,7 @@ export const ContainerServicos = styled.div`
   }
 
   @media (max-width: 768px) {
-    padding-top: 250px;
+    padding-top: 50px;
     padding-bottom: 30px;
     padding-left: 40px;
     padding-right: 40px;
@@ -32,7 +32,7 @@ export const ContainerServicos = styled.div`
   }
 
   @media (max-width: 480px) {
-    padding-top: 250px;
+    padding-top: 50px;
     padding-bottom: 20px;
     padding-left: 20px;
     padding-right: 20px;
