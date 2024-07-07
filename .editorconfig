@@ -1,0 +1,7 @@
+Root = true
+[*]
+Indent_style = space
+Indent_size = 2
+End_of_line = lf
+Charset = UTF-8
+Trim_trailing_whitespace = true
