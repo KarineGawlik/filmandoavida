@@ -11,10 +11,11 @@ const Header = () => {
         <nav>
           <ul>
             <li><a href="#inicio">Início</a></li>
-            <li><a href="#servicos">Portfólio</a></li>
+            <li><a href="#portfolio">Portfólio</a></li>
             <li><Logo src={logo} alt="Logo" /></li>
-            <li><a href="#Trabalho">Meus serviços</a></li>
+            <li><a href="#trabalho">Meus serviços</a></li>
             <li><a href="#sobre">Sobre</a></li>
+
           </ul>
         </nav>
         <TextOverlay>

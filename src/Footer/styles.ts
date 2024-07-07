@@ -11,16 +11,6 @@ export const ContainerFooter = styled.div`
     display: flex;
     flex-direction: column;
   }
-
-  @media (max-width: 768px) {
-    flex-direction: column;
-    align-items: flex-start;
-    padding: 30px;
-  }
-
-  @media (max-width: 480px) {
-    padding: 20px;
-  }
 `;
 
 export const ImgLogo = styled.img`
@@ -66,23 +56,16 @@ export const TextoFooter = styled.p`
 export const SocialLinks = styled.div`
   display: flex;
   flex-direction: column;
+  align-items: center;
+`;
 
-  a {
-    color: #1E1F20;
-    text-decoration: none;
-    font-size: 1.2rem;
-    margin-top: 10px;
+export const SocialLink = styled.a`
+  color: #1E1F20;
+  text-decoration: none;
+  font-size: 1.2rem;
+  margin-top: 10px;
 
-    &:hover {
-      color: #FFD700;
-    }
-
-    @media (max-width: 768px) {
-      font-size: 1rem;
-    }
-
-    @media (max-width: 480px) {
-      font-size: 0.9rem;
-    }
+  &:hover {
+    color: #FFD700;
   }
 `;
